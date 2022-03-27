@@ -1,8 +1,10 @@
 [package]
-name = "rust-microservice-http"
+name = "rust_microservice_http"
 version = "0.1.0"
-edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["qkpiot@gmail.com"]
 
 [dependencies]
+env_logger = "0.5.3"
+futures = "0.1.17"
+hyper = "0.11.13"
+log = "0.4.1"
